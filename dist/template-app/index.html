@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Timer</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/photon.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+
+
+  </head>
+  <body>
+    <div class="window">
+
+      <!-- .toolbar-header sits at the top of your app -->
+      <header class="toolbar toolbar-header">
+      </header>
+
+      <!-- Your app's content goes inside .window-content -->
+      <div class="window-content">
+        <div class="pane-group">
+          <div class="pane pane-sm sidebar">
+            <nav class="nav-group">
+              <h5 class="nav-group-title">New Pomodoro</h5>
+              <span class="nav-group-item active">
+
+              <span class="nav-group-item ">
+                <span class="nav-group-item ">
+                  <span id="plus"class="icon icon-plus-squared"></span>
+                  <span id="minus"class="icon icon-minus-squared"></span>
+                </span>
+              </span>
+            </nav>
+          </div>
+
+  <div class="pane">
+    <!-- MAIN CONTENT GOES HERE !!! -->
+    <div id="break" class="started">
+      <p>
+         Take a break and start over!
+      </p>
+    </div>
+
+    <div id="main">
+
+      <span id="counter">25:00</span></p>
+
+    </div>
+    </div>
+    <div id="countdown"></div>
+    </div>
+  <!-- END WINDOW CONTENT -->
+    </div>
+    <!-- END WINDOW !!!  -->
+    <footer class="toolbar toolbar-footer">
+    <div class="toolbar-actions">
+
+
+      <button class="btn btn-positive pull-right" id="start">
+        START
+      </button>
+    </div>
+  </footer>
+  </div>
+  <!-- JQUERY -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/clock.js"></script>
+
+</body>
+</html>
